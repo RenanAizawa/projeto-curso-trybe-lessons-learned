@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:rgb(253, 251, 251);
+}
+/*Header Dedicada ao cabeçalho*/
+#cabecalho{
+    margin-top: 0px;    
+    padding: 0px;
+    position: fixed;
+}
+.titulo{
+    margin-top: 0px;
+}
+
+
+/*Main Dedicada ao corpo da pagina*/
+#minha-foto{
+    display: inline-block;
+}
+
+
+/*Footer Dedicado ao rodape da pagina*/
+.externo{
+    
+}
+
