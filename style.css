@@ -9,23 +9,40 @@ body{
 }
 /*Header Dedicada ao cabeçalho*/
 #cabecalho{
-    margin-top: 0px;    
-    padding: 0px;
     position: fixed;
+    background-color: #0d6402;
 }
 .titulo{
     margin-top: 0px;
 }
 
-
 /*Main Dedicada ao corpo da pagina*/
-#minha-foto{
+#licoes_aprendidas{
+    border: 2px solid black;
+    width: 100px;
+    margin: 10px;
+    padding: 20px;
     display: inline-block;
 }
+#licoes_a_aprender{
+    border: 2px solid black;
+    width: 100px;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+}
+ul h2, ol h2{
+    font-size: 20px;
+    text-align: center  ;
+}
+ul li, ol li{
+    text-align: center;
 
-
+}
 /*Footer Dedicado ao rodape da pagina*/
-.externo{
-    
+#rodape h4, #rodape h5{
+    color: white;
+    background-color: #0d6402;
+    text-align: center;    
 }
 
