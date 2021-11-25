@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 *{
     margin: 0px;
     padding: 0px;
@@ -11,17 +9,22 @@ body{
 #cabecalho{
     position: fixed;
     background-color: #0d6402;
+    color: white;
+    font-family: monospace, sans-serif;
 }
 .titulo{
     margin-top: 0px;
 }
-
 /*Main Dedicada ao corpo da pagina*/
+#minha-foto{
+    width: 500px
+    
+}
 #licoes_aprendidas{
     border: 2px solid black;
     width: 100px;
     margin: 10px;
-    padding: 20px;
+    padding: 25px;
     display: inline-block;
 }
 #licoes_a_aprender{
@@ -37,12 +40,14 @@ ul h2, ol h2{
 }
 ul li, ol li{
     text-align: center;
-
+}
+ul li{
+    text-decoration: none;
 }
 /*Footer Dedicado ao rodape da pagina*/
 #rodape h4, #rodape h5{
     color: white;
     background-color: #0d6402;
     text-align: center;    
+    font-family: monospace, sans-serif;
 }
-
