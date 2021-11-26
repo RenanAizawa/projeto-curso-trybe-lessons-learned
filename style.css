@@ -44,6 +44,11 @@ ul li, ol li{
 ul li{
     text-decoration: none;
 }
+table tr td{
+    padding: 5px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
 /*Footer Dedicado ao rodape da pagina*/
 #rodape h4, #rodape h5{
     color: white;
