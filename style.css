@@ -1,62 +1,56 @@
-/*{
+/* {
     margin: 0px;
     padding: 0px;
 }*/
-body{
-    background-color:rgb(253, 251, 251);
+body {
+    background-color: rgb(253, 251, 251);
 }
-/*Header Dedicada ao cabeçalho*/
-#cabecalho{
+/* Header Dedicada ao cabeçalho*/
+#cabecalho {
     position: fixed;
     background-color: #0d6402;
     color: white;
     font-family: monospace, sans-serif;
     top: 0px;
 }
-.titulo{
-    margin-top: 0px;
-}
-ul li{
+ul li {
     text-decoration: none;
     display: inline-block;
     margin: 5px;
     margin-right: 5px;
 }
-/*Main Dedicada ao corpo da pagina*/
-#licoes_aprendidas{
+/* Main Dedicada ao corpo da pagina*/
+#licoes_aprendidas {
     border: 2px solid black;
     width: 100px;
     margin: 10px;
     padding: 25px;
     display: inline-block;
 }
-#licoes_a_aprender{
+#licoes_a_aprender {
     border: 2px solid black;
     width: 100px;
     margin: 10px;
     padding: 20px;
     display: inline-block;
 }
-ul h2, ol h2{
-    font-size: 20px;
-    text-align: center  ;
-}
-ul li, ol li{
+ul h2, ol h2 {
+    font-size: 20px
     text-align: center;
 }
-ul li{
-    text-decoration: none;
+ul li, ol li {
+    text-align: center;
 }
-table tr td{
+table tr td {
     padding: 5px;
     margin-left: 5px;
     border: 1px solid black;
 }
-/*Footer Dedicado ao rodape da pagina*/
-#rodape{
+/* Footer Dedicado ao rodape da pagina*/
+#rodape {
     color: white;
     background-color: #0d6402;
-    text-align: center;    
+    text-align: center;
     font-family: monospace, sans-serif;
     margin: 1px;
     padding: 1px;
