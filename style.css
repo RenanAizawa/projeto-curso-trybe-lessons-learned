@@ -1,7 +1,7 @@
-*{
+/*{
     margin: 0px;
     padding: 0px;
-}
+}*/
 body{
     background-color:rgb(253, 251, 251);
 }
@@ -11,15 +11,18 @@ body{
     background-color: #0d6402;
     color: white;
     font-family: monospace, sans-serif;
+    top: 0px;
 }
 .titulo{
     margin-top: 0px;
 }
-/*Main Dedicada ao corpo da pagina*/
-#minha-foto{
-    width: 500px
-    
+ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    margin-right: 5px;
 }
+/*Main Dedicada ao corpo da pagina*/
 #licoes_aprendidas{
     border: 2px solid black;
     width: 100px;
@@ -50,9 +53,12 @@ table tr td{
     border: 1px solid black;
 }
 /*Footer Dedicado ao rodape da pagina*/
-#rodape h4, #rodape h5{
+#rodape{
     color: white;
     background-color: #0d6402;
     text-align: center;    
     font-family: monospace, sans-serif;
+    margin: 1px;
+    padding: 1px;
+    line-height: 0px;
 }
