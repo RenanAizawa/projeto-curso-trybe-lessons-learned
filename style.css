@@ -36,7 +36,6 @@ ul li {
 }
 ul h2, ol h2 {
     font-size: 20px
-    text-align: center;
 }
 ul li, ol li {
     text-align: center;
@@ -45,6 +44,12 @@ table tr td {
     padding: 5px;
     margin-left: 5px;
     border: 1px solid black;
+}
+.lado-esquerdo {
+    width: 30%;
+}
+.lado-direiro {
+
 }
 /* Footer Dedicado ao rodape da pagina*/
 #rodape {
