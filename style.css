@@ -1,9 +1,7 @@
-/* {
-    margin: 0px;
-    padding: 0px;
-}*/
 body {
     background-color: rgb(253, 251, 251);
+    font-family: monospace, sans-serif;
+    font-size: 14px;
 }
 /* Header Dedicada ao cabeçalho*/
 #cabecalho {
@@ -20,25 +18,24 @@ ul li {
     margin-right: 5px;
 }
 /* Main Dedicada ao corpo da pagina*/
+#minha_foto {
+    width: 150px;
+    margin-top: 150px;
+}
 #licoes_aprendidas {
-    border: 2px solid black;
-    width: 100px;
     margin: 10px;
     padding: 25px;
-    display: inline-block;
+    text-align: center;
+    margin-top: 0px;
 }
 #licoes_a_aprender {
-    border: 2px solid black;
-    width: 100px;
+    width: 150px;
     margin: 10px;
     padding: 20px;
-    display: inline-block;
+    text-align: center;
 }
 ul h2, ol h2 {
-    font-size: 20px
-}
-ul li, ol li {
-    text-align: center;
+    font-size: 20px   
 }
 table tr td {
     padding: 5px;
@@ -46,10 +43,13 @@ table tr td {
     border: 1px solid black;
 }
 .lado-esquerdo {
-    width: 30%;
+    float: left;
 }
-.lado-direiro {
-
+.lado-direito {
+    float: right;
+}
+.tabela-horario {
+    float: none ;
 }
 /* Footer Dedicado ao rodape da pagina*/
 #rodape {
